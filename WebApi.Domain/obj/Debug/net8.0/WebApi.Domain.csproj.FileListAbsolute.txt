@@ -10,3 +10,4 @@ C:\Users\usuario\source\repos\WebApi.App\WebApi.Domain\obj\Debug\net8.0\WebApi.D
 C:\Users\usuario\source\repos\WebApi.App\WebApi.Domain\obj\Debug\net8.0\refint\WebApi.Domain.dll
 C:\Users\usuario\source\repos\WebApi.App\WebApi.Domain\obj\Debug\net8.0\WebApi.Domain.pdb
 C:\Users\usuario\source\repos\WebApi.App\WebApi.Domain\obj\Debug\net8.0\ref\WebApi.Domain.dll
+C:\Users\usuario\source\repos\WebApi.App\WebApi.Domain\obj\Debug\net8.0\WebApi.Domain.sourcelink.json

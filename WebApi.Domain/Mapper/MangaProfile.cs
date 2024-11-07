@@ -9,5 +9,6 @@ public class MangaProfile : Profile
     public MangaProfile()
     {
         CreateMap<MangaDTO, MangaEntity>();
+        CreateMap<MangaEntity, MangaDTO>();
     }
 }

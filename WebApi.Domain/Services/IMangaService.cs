@@ -5,6 +5,8 @@ namespace WebApi.Domain.Services;
 
 public interface IMangaService
 {
-    Task CreateManga(MangaDTO dto);
-    Task<IEnumerable<MangaEntity>> SelectManga();
+    Task Create(MangaDTO dto);
+    Task<T> DirectSelect<T>(int? id);
+    Task Edit(MangaEntity dto);
+    Task Delete(int id);
 }

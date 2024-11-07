@@ -58,3 +58,4 @@ C:\Users\usuario\source\repos\WebApi.App\WebApi.Api\bin\Debug\net8.0\WebApi.Infr
 C:\Users\usuario\source\repos\WebApi.App\WebApi.Api\bin\Debug\net8.0\WebApi.Services.pdb
 C:\Users\usuario\source\repos\WebApi.App\WebApi.Api\bin\Debug\net8.0\MySqlConnector.dll
 C:\Users\usuario\source\repos\WebApi.App\WebApi.Api\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\usuario\source\repos\WebApi.App\WebApi.Api\obj\Debug\net8.0\WebApi.Api.sourcelink.json

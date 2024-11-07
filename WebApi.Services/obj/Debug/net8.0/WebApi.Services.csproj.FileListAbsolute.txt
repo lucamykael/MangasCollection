@@ -13,3 +13,4 @@ C:\Users\usuario\source\repos\WebApi.App\WebApi.Services\obj\Debug\net8.0\WebApi
 C:\Users\usuario\source\repos\WebApi.App\WebApi.Services\obj\Debug\net8.0\refint\WebApi.Services.dll
 C:\Users\usuario\source\repos\WebApi.App\WebApi.Services\obj\Debug\net8.0\WebApi.Services.pdb
 C:\Users\usuario\source\repos\WebApi.App\WebApi.Services\obj\Debug\net8.0\ref\WebApi.Services.dll
+C:\Users\usuario\source\repos\WebApi.App\WebApi.Services\obj\Debug\net8.0\WebApi.Services.sourcelink.json
