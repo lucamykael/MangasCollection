@@ -1,0 +1,15 @@
+C:\Users\usuario\source\repos\WebApi.App\WebApi.Services\bin\Debug\net8.0\WebApi.Services.deps.json
+C:\Users\usuario\source\repos\WebApi.App\WebApi.Services\bin\Debug\net8.0\WebApi.Services.dll
+C:\Users\usuario\source\repos\WebApi.App\WebApi.Services\bin\Debug\net8.0\WebApi.Services.pdb
+C:\Users\usuario\source\repos\WebApi.App\WebApi.Services\bin\Debug\net8.0\WebApi.Domain.dll
+C:\Users\usuario\source\repos\WebApi.App\WebApi.Services\bin\Debug\net8.0\WebApi.Domain.pdb
+C:\Users\usuario\source\repos\WebApi.App\WebApi.Services\obj\Debug\net8.0\WebApi.Services.csproj.AssemblyReference.cache
+C:\Users\usuario\source\repos\WebApi.App\WebApi.Services\obj\Debug\net8.0\WebApi.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\usuario\source\repos\WebApi.App\WebApi.Services\obj\Debug\net8.0\WebApi.Services.AssemblyInfoInputs.cache
+C:\Users\usuario\source\repos\WebApi.App\WebApi.Services\obj\Debug\net8.0\WebApi.Services.AssemblyInfo.cs
+C:\Users\usuario\source\repos\WebApi.App\WebApi.Services\obj\Debug\net8.0\WebApi.Services.csproj.CoreCompileInputs.cache
+C:\Users\usuario\source\repos\WebApi.App\WebApi.Services\obj\Debug\net8.0\WebApi.S.40CD9028.Up2Date
+C:\Users\usuario\source\repos\WebApi.App\WebApi.Services\obj\Debug\net8.0\WebApi.Services.dll
+C:\Users\usuario\source\repos\WebApi.App\WebApi.Services\obj\Debug\net8.0\refint\WebApi.Services.dll
+C:\Users\usuario\source\repos\WebApi.App\WebApi.Services\obj\Debug\net8.0\WebApi.Services.pdb
+C:\Users\usuario\source\repos\WebApi.App\WebApi.Services\obj\Debug\net8.0\ref\WebApi.Services.dll

@@ -1,0 +1,43 @@
+services:
+    mysql-db:
+        image: mysql:latest
+        environment:
+            MYSQL_ROOT_PASSWORD: my-secret-pw
+            MYSQL_DATABASE: mydatabase
+            MYSQL_USER: myuser
+            MYSQL_PASSWORD: mypassword
+        ports:
+            - "3306:3306"
+        volumes:
+            - mysql-data:/var/lib/mysql
+            - ./scripts:/docker-entrypoint-initdb.d
+        networks:
+            - app-network
+
+    api:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        environment:
+            - ASPNETCORE_ENVIRONMENT=Development
+            - ASPNETCORE_URLS=https://0.0.0.0:443
+            - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/cert.pem
+            - ASPNETCORE_Kestrel__Certificates__Default__KeyPath=/https/key.pem
+            - ConnectionStrings_MySql=Server=mysql-db;Port=3306;Database=mydatabase;User=root;Password=my-secret-pw;
+        ports:
+            - "443:443"
+        depends_on:
+            - mysql-db
+        volumes:
+            - ./cert.pem:/https/cert.pem
+            - ./key.pem:/https/key.pem
+        networks:
+            - app-network
+
+networks:
+    app-network:
+        driver: bridge
+
+volumes:
+    mysql-data:
+        driver: local
