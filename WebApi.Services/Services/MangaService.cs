@@ -12,6 +12,11 @@ public class MangaService(IMangaRepository repository) : IMangaService
 
     public async Task Create(MangaDTO dto)
     {
+        if(dto == null || string.IsNullOrWhiteSpace(dto.Name))
+        {
+            throw new ArgumentException("Manga data is invalid or empty.");
+        }
+
         await _repository.CreateManga(dto);
     }
 
